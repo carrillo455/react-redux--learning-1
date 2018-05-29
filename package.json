@@ -1,0 +1,20 @@
+{
+  "name": "react-training-1",
+  "version": "1.0.0",
+  "description": "My first attempt to dive into React and Redux.",
+  "keywords": ["redux", "react", "learning"],
+  "main": "src/index.js",
+  "dependencies": {
+    "proptypes": "latest",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
