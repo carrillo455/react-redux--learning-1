@@ -2,13 +2,21 @@
   "name": "react-training-1",
   "version": "1.0.0",
   "description": "My first attempt to dive into React and Redux.",
-  "keywords": ["redux", "react", "learning"],
+  "keywords": [
+    "redux",
+    "react",
+    "learning"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@material-ui/core": "^1.1.0",
+    "@material-ui/icons": "^1.1.0",
     "proptypes": "latest",
     "react": "16.3.2",
     "react-dom": "16.3.2",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
