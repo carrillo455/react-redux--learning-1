@@ -1,8 +1,8 @@
 let nextUserId = 0
-export const addUser = (username, password, email) => ({
+export const addUser = (firstName, lastName, email) => ({
   type: 'ADD_USER',
   id: nextUserId++,
-  username,
-  password,
+  firstName,
+  lastName,
   email
 })
