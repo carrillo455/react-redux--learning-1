@@ -14,6 +14,9 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { mailFolderListItems, otherMailFolderListItems } from './tileData';
 
+import AddUser from '../containers/AddUser'
+import Table from './Table'
+
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -136,7 +139,8 @@ class MiniDrawer extends React.Component {
         </Drawer>
         <main className={classes.content}>
           <div className={classes.toolbar} />
-          <Typography noWrap>{'You think water moves fast? You should see ice.'}</Typography>
+          <AddUser />
+
         </main>
       </div>
     );
